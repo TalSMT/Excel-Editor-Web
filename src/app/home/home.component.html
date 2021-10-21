@@ -1,0 +1,47 @@
+<!-- <app-navbar></app-navbar> -->
+<!-- <router-outlet></router-outlet> -->
+
+<!-- <router-outlet></router-outlet>  -->
+
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+<!-- <label for="file-upload" class="custom-file-upload"> File Upload</label> -->
+
+
+<label class="btn btn-primary">
+  <i class="fa fa-image"></i>Choose File
+  <img src="/assets/imgs/upload_icon.png" alt="">
+  <input class="file-input"  type="file" name="fileName" [(ngModel)]="fileName" appReadexcel #readexcel="readexcel" (eventEmitter)="DataFromEventEmitter($event)"/>
+<!-- <img src="assets/imgs/upload_icon.png"/> -->
+</label>
+
+
+ <table id="thetable">
+  <thead>
+   <tr>
+     <th>Num Of Row</th>
+     <th>Id</th>
+     <th>Name</th>
+     <th>Num1</th>
+     <th>Num2</th>
+     <!-- <th>Net</th> -->
+   </tr>
+  
+  </thead>
+  <tbody>
+    <tr *ngFor="let n of readexcel.excelObsrvable |async">
+    <td>{{ n.__rowNum__}}</td>
+    <td>{{ n.id }}</td>
+    <td>{{ n.name }}</td>
+    <td>{{ n.num1 }}</td>
+    <td>{{ n.num2 }}</td>
+    <td>{{ n.net }}</td>
+  </tr>
+</tbody>
+
+</table>
+<!-- <a href='action'><button>Start Edit</button></a> -->
+<app-writeexcel></app-writeexcel>
+
+<!-- <app-navbar></app-navbar> -->
+<!-- <router-outlet></router-outlet>   -->

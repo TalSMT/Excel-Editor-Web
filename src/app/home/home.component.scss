@@ -1,0 +1,86 @@
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Montserrat:wght@500&display=swap');
+// *{
+//     // background-color: blueviolet;
+// }
+input{
+    border-style:dotted;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    width: 500px;
+    height: 200px;
+    padding: 15px 10px;
+    display:block;
+    // background:rgb(238, 234, 234);
+    color: black;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent:25%;
+    background: rgb(241, 252, 252) url(/assets/imgs/upload_icon.png) left no-repeat;
+    // padding-left: 100px;
+    display: none;
+   
+    
+}
+
+
+.btn{
+    // border-color: royalblue;
+    border-style:dotted;
+    border-radius: 30px;
+    color: whitesmoke;
+    position:absolute;
+    display:flex;
+    width:135vh;
+    height:30vh;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 100px ;
+    margin-left: 250px;
+    margin-top: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    // background: rgb(241, 252, 252) url(/assets/imgs/upload_icon.png) left no-repeat;
+    // background: rgba(14, 151, 185, 0.788);
+    background: #40bea7;
+    text-align: center;
+    
+    
+  
+
+}
+
+img{
+    
+    
+    width: 60px;
+    height: 70px;
+   
+}
+
+
+
+
+#thetable{
+    display: none;
+    margin-top: 60px;
+    color: crimson;
+    margin-left: auto;
+    margin-right: auto;
+}
+table {
+    border-collapse:collapse;
+}
+table, th, td {
+    border:1px solid black;
+}
+
+th {
+    padding:8px;
+}
+td{
+    text-align: center;
+}

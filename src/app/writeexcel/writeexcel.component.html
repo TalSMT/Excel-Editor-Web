@@ -1,0 +1,69 @@
+
+<!-- <input type="text" (keyup)="getVal($any($event.target).value)"/> -->
+<!-- <input type="text" (keyup)="getVal($event)"/> -->
+<!-- [(ngModel)]="pass" -->
+
+ <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+
+<!--nav bar-->
+<!-- <nav class="navbar">
+    <ul>
+        <li class="navbar-logo">Excel Editor</li>
+        <li class="navbar-toggle"><i class="fas fa-bars"></i></li>
+    </ul>
+
+</nav>  -->
+<!-- <app-navbar></app-navbar> -->
+<!-- <router-outlet></router-outlet>  -->
+
+<!-- <app-home></app-home> -->
+
+<body>
+
+<div class="form">
+    <h1>File editing operations</h1>
+    <br>
+ <div id="o1">
+    <label for="LnameOfCol" class="form_label">Delete column</label>   
+    <input id="nameOfCol" class="form_input"  type="text" placeholder="column name" #nameOfCol/>
+</div>
+
+    <br><br>
+
+<div id="o2">
+     <label for="LnumOfRow" class="form_label">Delete row</label>
+     <input id="numOfRow" class="form_input"  type="text" placeholder="row number" #numOfRow/>
+     <label for="LnumOfRange" class="form_label">Delete rows</label>
+     <input id="numOfRange" class="form_input"  type="text" placeholder="range" #numOfRange/>
+</div>
+
+   <br><br>
+
+<div id="o3">
+    <label for="LfixNum" class="form_label">Multiply column by</label>
+    <input id="fixNum" class="form_input"  type="text" placeholder="number" #fixNum/>
+    <label for="LtheColToDouble" class="form_label">Column</label>
+    <input id="theColToDouble" class="form_input"   type="text" placeholder="name" #theColToDouble/>
+    <label for="LnameOfNewCol" class="form_label">New column name</label>
+    <input id="nameOfNewCol" class="form_input" type="text" placeholder="name" #nameOfNewCol/>
+</div>  
+
+    <br><br>
+<div id="o4">
+    <label for="LaddNewCol" class="form_label">Add new column</label>
+    <input id="addNewCol" class="form_input"  type="text" placeholder="name" #addNewCol/>
+    <label for="Ltext" class="form_label">Add new content</label>
+    <input id="text" class="form_input"  type="text" placeholder="text" #text/>
+</div>
+
+    <br><br>
+</div>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+<button class="button" [disabled]="isLoading" type="button" (click)="exportexcel()">
+    <img *ngIf ="isLoading" style= "width: 24px" src="/assets/imgs/circle-loading.gif"/>
+     Export to Excel</button>
+
+</body>
+
+
+

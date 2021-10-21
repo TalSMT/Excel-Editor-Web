@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Excel-File-App';
+  // title = 'Excel-File-App';
+
+
+  // DataFromEventEmitter(data:any) {
+  //   console.log(data);
+  // }
 }
