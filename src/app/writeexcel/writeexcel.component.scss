@@ -17,6 +17,7 @@ body{
     align-items: center;
     font-size: 1.2rem;
     background-color:whitesmoke;
+    padding-bottom: 200px;
 
 
 }
@@ -24,9 +25,13 @@ body{
 h1{
     font: bold  30px 'Quicksand', sans-serif;
     border-bottom: 5px solid rgb(155, 153, 153);
+    justify-content: center;
+    align-items: center;
     padding-bottom: 30px;
-    // padding-top: 40px;
-    margin-top: 70px;
+    // // padding-top: 40px;
+    // margin-top: 70px;
+    padding-left: 30px;
+  
    
 }
 // .form{
@@ -158,15 +163,16 @@ input{
     cursor: pointer;
     width: 200px;
     height: 45px;
-    margin-left: 500px;
+    margin-left: 40%;
     margin-right: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 1000px;
+    margin-top: 650px;
     font:  18px 'Quicksand', sans-serif;
     color: whitesmoke;
     transition: all 0.2s;
     display: flex;
+    
     
 }
 

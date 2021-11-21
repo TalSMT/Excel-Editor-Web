@@ -1,10 +1,51 @@
 
 *{
-    box-sizing: border-box;
+    // box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
     margin: 0;
     padding: 0;
+    // height: 220vh;
+    // display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background:whitesmoke;
+    // padding-bottom: 200px;
+
 }
+
+.about_text{
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background:whitesmoke;
+    height: 100vh;
+    width: 100%;
+}
+
+h1{
+    background:whitesmoke ;
+    // display:block;
+    font-size: 30px;
+    color: #24252A;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    // margin-top: 10px;
+    padding-top: 75px;
+    // border-bottom: 2px solid blue;
+
+}
+
 h3{
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    color: #24252A;
+    display:flex;
+    position: relative;
+    word-spacing: 4px;
+    line-height: 40px;
    
 }
