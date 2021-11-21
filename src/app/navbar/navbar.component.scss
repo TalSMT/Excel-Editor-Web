@@ -12,7 +12,7 @@ li, a ,button{
    
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -25,12 +25,12 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 8%;
+    padding: 3px 8%;
     // box-shadow: 5px 5px 4px 0 rgba(216, 27, 27, 0.897);
   
 }
 .logo{
-    display: block;
+    display:flex;
     max-width:20% ;
     max-height:20% ;
     width: 120px;
@@ -39,8 +39,6 @@ header{
     // cursor: pointer;
     ;
 }
-
-
 
 
 
